@@ -1,9 +1,9 @@
 import streamlit as st
-import Joblib
+import joblib
 import numpy as np
 
 # Load the saved model
-model = Joblib.load(open('linear_reg.sav', 'rb'))
+model = joblib.load(open('liner.sav', 'rb'))
 
 st.title('Sales Prediction App')
 
